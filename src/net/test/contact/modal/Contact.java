@@ -6,6 +6,10 @@ public class Contact {
 	private String email;
 	private String address;
 	private String telephone;
+	
+	public Contact() {
+		
+	}
 
 	public Contact(int id, String name, String email, String address, String telephone) {
 		this(name,email,address,telephone);
